@@ -25,7 +25,6 @@
 
 &soc {
 	sound {
-		qcom,model = "msm8952-sku2-snd-card";
 		qcom,msm-hs-micbias-type = "internal";
 		qcom,audio-routing =
 			"RX_BIAS", "MCLK",
@@ -38,6 +37,10 @@
 			"AMIC2", "MIC BIAS Internal2",
 			"AMIC3", "MIC BIAS External";
 	};
+};
+
+&int_codec {
+	qcom,model = "msm8952-sku2-snd-card";
 };
 
 &i2c_2 {
