@@ -765,6 +765,7 @@ EXTRA_CFLAGS += $(call cc-disable-warning,maybe-uninitialized,) -Wno-unused-func
 # Not gonna fix these warnings, clang!
 ifeq ($(cc-name),clang)
 EXTRA_CFLAGS += $(call cc-disable-warning,enum-conversion,)
+EXTRA_CFLAGS += $(call cc-disable-warning,pointer-bool-conversion,)
 EXTRA_CFLAGS += $(call cc-disable-warning,typedef-redefinition,)
 endif
 
