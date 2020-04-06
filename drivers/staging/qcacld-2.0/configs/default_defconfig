@@ -23,7 +23,7 @@ ifeq ($(KERNEL_BUILD),1)
 	WLAN_OPEN_SOURCE := 1
 endif
 
-ifeq ($(KERNEL_BUILD), 0)
+ifeq ($(KERNEL_BUILD), 1)
 	# These are configurable via Kconfig for kernel-based builds
 	# Need to explicitly configure for Android-based builds
 
