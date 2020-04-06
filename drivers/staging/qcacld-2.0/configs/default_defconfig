@@ -76,7 +76,7 @@ ifeq ($(KERNEL_BUILD), 0)
 	# way no critical debug feature will be enabled for perf and shipment
 	# builds. Other OEMs are also protected using the TARGET_BUILD_VARIANT
 	# config.
-	ifneq ($(TARGET_BUILD_VARIANT), user)
+	ifeq ($(TARGET_BUILD_VARIANT), eng)
 		ifeq ($(CONFIG_SLUB_DEBUG_ON), y)
 			CONFIG_DPTRACE_ENABLE := y
 		else
