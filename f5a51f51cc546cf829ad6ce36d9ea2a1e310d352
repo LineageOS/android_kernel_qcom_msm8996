@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "df65a461_409be6e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2026-10-25T14:48:51Z",
+      "side": 1,
+      "message": "Unfixes this kernel for most devices.\nResolves /ion/clients issue.",
+      "revId": "f5a51f51cc546cf829ad6ce36d9ea2a1e310d352",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
